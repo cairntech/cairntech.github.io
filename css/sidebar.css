@@ -44,7 +44,7 @@ main{
 	}
 }
 
-.menu{
+.sidebar{
 	background:@color-2nd;
 	height:100vh;
 	width:@menu-width-desktop;
