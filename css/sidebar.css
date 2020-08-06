@@ -10,7 +10,7 @@
 @icon-url-customers: "@{icon-url-base}/briefcase.svg";
 @icon-url-users: "@{icon-url-base}/users.svg";
 @icon-url-settings: "@{icon-url-base}/tools.svg";
-
+/*
 body{
 	background:@color-1st;
 	margin:0;
@@ -43,7 +43,7 @@ main{
 		}
 	}
 }
-
+*/
 .sidebar{
 	background:@color-2nd;
 	height:100vh;
