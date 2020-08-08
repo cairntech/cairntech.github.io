@@ -118,6 +118,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 
 #sidebar.active {
     margin-left: -250px;
+    background: #111111;
 }
 
 #sidebar .sidebar-header {

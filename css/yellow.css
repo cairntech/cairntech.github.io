@@ -99,7 +99,7 @@ $text-sidebar : #6b6b6b /*#fff*/;
 $text-sidebar-hover : #6b6b6b /*#fff*/;
 
 .text-sidebar {
-  color: $text-sidebar;
+  color: #6b6b6b;
 }
 
 .wrapper {
@@ -117,6 +117,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 #sidebar.active {
+    background: #111111;
     margin-left: -250px;
 }
 
