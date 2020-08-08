@@ -42,15 +42,16 @@ $turbo-yellow-90: darken($turbo-yellow, 40%);
 }
     
     
-   @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+   @import "https://fonts.googleapis.com/css?family=Cabin:300,400,500,600,700";
+   @import "https://fonts.googleapis.com/css?family=Orbitron:300,400,500,600,700";
    
    body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cabin', sans-serif;
     background: #fafafa;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
