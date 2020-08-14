@@ -1,834 +1,304 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
+<!-- https://bootstrapious.com/p/bootstrap-sidebar -->
 <head>
-  <title>Project Title</title>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/sidebar.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
-  <style>
-    .menu-index {
-      color: rgb(255, 255, 255) !important;
-      opacity: 1 !important;
-      font-weight: 700 !important;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Cairntech Remineralization</title>
+  
+  <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet"
+	  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+	  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	  crossorigin="anonymous"> 
+     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- Our Custom CSS 
+    <link rel="stylesheet" href="style.css"> -->
+    <link href="css/yellow.css" media="screen" rel="stylesheet" type="text/css" />
+   
+    <!-- Font Awesome JS -
+    <script defer
+    src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+	    crossorigin="anonymous"></script> -->
+    <script defer src="js/solid.js"></script>
+   <!--  <script defer
+    src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+	    crossorigin="anonymous"></script> -->
+     <script defer src="js/fontawesome.js"></script>
+
 </head>
 
 <body>
-  <nav class="sidebar" tabindex="0">
-    <div class="smartphone-menu-trigger"></div>
-    <header class="avatar">
-      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" />
-      <h2>John D.</h2>
-    </header>
-    <ul>
-      <li tabindex="0" class="icon-dashboard"><span>Dashboard</span></li>
-      <li tabindex="0" class="icon-customers"><span>Customers</span></li>
-      <li tabindex="0" class="icon-users"><span>Users</span></li>
-      <li tabindex="0" class="icon-settings"><span>Settings</span></li>
-    </ul>
-  </nav>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>CairnTech</h3>
+            </div>
 
-  <div class="menu-container"></div>
-  <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Intro-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-column">
-            <p class="text text-large">
-              <a target="_blank" href="javascript:void(0)">Author 1</a>, author1 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Author 2</a>, author2 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Author 3</a>, author3 (at) cs.cmu.edu<br>
-              <a target="_blank" href="javascript:void(0)">Laboratory</a><br>
-              <a target="_blank" href="javascript:void(0)">Institute</a><br>
-              <a target="_blank" href="javascript:void(0)">Organization</a><br>
-              <a target="_blank" href="javascript:void(0)">Street Address</a><br>
-              <a target="_blank" href="javascript:void(0)">City, State, Country</a>
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text add-top-margin">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-              sapien ut libero venenatis faucibus. Nullam quis ante.
-            </p>
-          </div>
-        </div>
-        <!--End Intro-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text Only-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text Only</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <p class="text">
-              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
-              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos
-              ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-              excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga.
-            </p>
-            <h3>Break Long URL</h3>
-            <p class="text">
-              <a class="break-long-url" target="_blank" href="https://www.google.com/maps/place/Carnegie+Mellon+University/@40.4430576,-79.9431263,17z/data=!4m5!3m4!1s0x8834f21f58679a9f:0x88716b461fc4daf4!8m2!3d40.4428753!4d-79.9430922">https://www.google.com/maps/place/Carnegie+Mellon+University/@40.4430576,-79.9431263,17z/data=!4m5!3m4!1s0x8834f21f58679a9f:0x88716b461fc4daf4!8m2!3d40.4428753!4d-79.9430922</a>
-            </p>
-            <h3>Nested List</h3>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, <a target="_blank" href="javascript:void(0)">sit amet adipiscing sem neque</a> sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aenean commodo ligula eget dolor.
-                <ul>
-                  <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
-                  <li>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                    <ul>
-                      <li>Li nov <a target="_blank" href="javascript:void(0)">lingua franca</a>.</li>
-                      <li>It va esser Occidental.</li>
-                      <li>Existent Europan lingues.</li>
+            <ul class="list-unstyled components">
+              <!--<p>Dummy Heading</p>-->
+                <li class="active">
+                  <a href="#homeSubmenu"
+		     data-toggle="collapse"
+		     aria-expanded="false"
+		     class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li>Nullam dictum felis eu pede mollis pretium.</li>
-                </ul>
-              </li>
-              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </li>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-            <ol class="nested">
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aenean commodo ligula eget dolor.
-                <ol class="nested">
-                  <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
-                  <li>In enim justo, <a target="_blank" href="javascript:void(0)">rhoncus ut, imperdiet a</a>, venenatis vitae, justo.
-                    <ol class="nested">
-                      <li>Li nov lingua franca.</li>
-                      <li>It va esser Occidental.</li>
-                      <li>Existent Europan lingues.</li>
-                    </ol>
-                  </li>
-                  <li>Nullam dictum felis eu pede mollis pretium.</li>
-                </ol>
-              </li>
-              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </li>
-            </ol>
-            <h3>List with Customized Reverse Numbering</h3>
-            <ol class="publication C-list">
-              <li>
-                <p class="text-small-margin">
-                  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-                  augue. Curabitur ullamcorper ultricies nisi.
-                </p>
-              </li>
-              <li>
-                <p class="text-small-margin">
-                  Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-                  condimentum rhoncus, sem quam semper libero, <a target="_blank" href="javascript:void(0)">sit amet adipiscing sem neque sed ipsum</a>. Nam quam nunc, blandit
-                  vel, luctus pulvinar, hendrerit id, lorem.
-                </p>
-              </li>
-              <li>
-                <p class="text-small-margin">
-                  Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-                  coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-                </p>
-              </li>
-            </ol>
-            <h3>Math Equations</h3>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-            </p>
-            <img class="image center" src="http://latex.codecogs.com/svg.latex?C\cdot(3\sin\theta_1+3\sin\theta_2-\cos\theta_1-\cos\theta_2)" style="max-width: 300px;">
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-            </p>
-          </div>
-        </div>
-        <!--End Text Only-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Buttons-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Buttons and Inputs</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <div class="control-group">
-              <button class="custom-button">Default</button>
-              <button class="custom-button custom-button-primary">Primary</button>
-              <button class="custom-button custom-button-danger">Danger</button>
-              <button class="custom-button custom-button-info">Info</button>
-              <button class="custom-button" disabled>Disabled</button>
-              <a class="custom-button" target="_blank" href="https://github.com/yenchiah/project-website-template" target="_blank">Hyperlink</a>
-              <button class="custom-button custom-button-primary stretch-on-mobile">Stretch on Mobile</button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button pulse-black">Pulse</button>
-              <button class="custom-button custom-button-primary pulse-primary">Pulse</button>
-              <button class="custom-button custom-button-danger pulse-danger">Pulse</button>
-              <button class="custom-button custom-button-info pulse-info">Pulse</button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/home.png"></button>
-              <button class="custom-button-flat" disabled><img src="img/home.png"></button>
-              <button class="custom-button-flat small"><img src="img/home.png"></button>
-              <button class="custom-button-flat large"><img src="img/home.png"></button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/calendar.png"></button>
-              <button class="custom-button-flat"><img src="img/play.png"></button>
-              <button class="custom-button-flat"><img src="img/pause.png"></button>
-              <button class="custom-button-flat"><img src="img/stop.png"></button>
-              <button class="custom-button-flat"><img src="img/terrain.png"></button>
-              <button class="custom-button-flat"><img src="img/close.png"></button>
-              <button class="custom-button-flat"><img src="img/collection.png"></button>
-              <button class="custom-button-flat"><img src="img/next.png"></button>
-              <button class="custom-button-flat"><img src="img/back.png"></button>
-              <button class="custom-button-flat"><img src="img/setting.png"></button>
-              <button class="custom-button-flat"><img src="img/book.png"></button>
-              <button class="custom-button-flat"><img src="img/user.png"></button>
-              <button class="custom-button-flat"><img src="img/share.png"></button>
-              <a class="custom-button-flat" href="https://github.com/yenchiah/project-website-template" target="_blank">
-                <img src="img/link.png">
-              </a>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/home.png"><span>Home</span></button>
-              <button class="custom-button-flat" disabled><img src="img/home.png"><span>Disabled</span></button>
-              <button class="custom-button-flat small"><img src="img/home.png"><span>Small</span></button>
-              <button class="custom-button-flat large"><img src="img/home.png"><span>Large</span></button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat"><img src="img/calendar.png"><span>Calendar</span></button>
-              <button class="custom-button-flat"><img src="img/play.png"><span>Play</span></button>
-              <button class="custom-button-flat"><img src="img/stop.png"><span>Stop</span></button>
-              <button class="custom-button-flat"><img src="img/terrain.png"><span>Terrain</span></button>
-              <button class="custom-button-flat"><img src="img/close.png"><span>Close</span></button>
-              <button class="custom-button-flat"><img src="img/collection.png"><span>Collection</span></button>
-              <button class="custom-button-flat"><img src="img/next.png"><span>Next</span></button>
-              <button class="custom-button-flat"><img src="img/back.png"><span>Back</span></button>
-              <button class="custom-button-flat"><img src="img/setting.png"><span>Setting</span></button>
-              <button class="custom-button-flat"><img src="img/book.png"><span>Tutorial</span></button>
-              <button class="custom-button-flat"><img src="img/user.png"><span>User</span></button>
-              <button class="custom-button-flat"><img src="img/share.png"><span>Share</span></button>
-              <a class="custom-button-flat" href="https://github.com/yenchiah/project-website-template" target="_blank">
-                <img src="img/link.png"><span>Hyperlink</span>
-              </a>
-              <button class="custom-button-flat stretch-on-mobile"><img src="img/play.png"><span>Stretch on Mobile</span></button>
-            </div>
-            <div class="control-group">
-              <button class="custom-button-flat pulse-black"><img src="img/home.png"><span>Pulse</span></button>
-              <button class="custom-button-flat pulse-primary"><img src="img/home.png"><span>Pulse</span></button>
-              <button class="custom-button-flat pulse-danger"><img src="img/home.png"><span>Pulse</span></button>
-              <button class="custom-button-flat pulse-info"><img src="img/home.png"><span>Pulse</span></button>
-            </div>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row-space-between">
-          <div class="flex-item flex-column">
-            <p class="text badge-text">Large Badge Caption!</p>
-          </div>
-          <div class="flex-item flex-column">
-            <div class="control-group">
-              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
-                <img src="img/app-store-badge.png" width="150">
-              </a>
-              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
-                <img src="img/google-play-badge.png" width="150">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <div class="control-group">
-              <input class="custom-textbox stretch-on-mobile" type="text" placeholder="e.g., 15213">
-              <textarea class="custom-textbox stretch-on-mobile" placeholder="e.g., 15213"></textarea>
-            </div>
-            <div class="control-group">
-              <input class="custom-textbox stretch-on-mobile" value="http://yenchiah.me/" type="text" readonly>
-              <textarea class="custom-textbox stretch-on-mobile" readonly>Phasellus viverra nulla ut metus varius laoreet.</textarea>
-            </div>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Buttons-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Images and Image buttons-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Images and Image Buttons</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row-space-between">
-          <div class="flex-item flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-            <p class="image-caption">Image Caption</p>
-          </div>
-          <div class="flex-item flex-column">
-            <a href="https://github.com/yenchiah/project-website-template" target="_blank" class="image max-width-400">
-              <img src="img/dummay-img.png">
-            </a>
-            <p class="image-caption">Image Button Caption</p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Images and Image buttons-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text around Image-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text around Image</h2>
-            <hr>
-            <p class="text">
-              <img class="image image-wrap-text max-width-400" src="img/dummay-img.png">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-              amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-              aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
-              voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-              pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-              deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-              similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-              rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis.
-            </p>
-          </div>
-        </div>
-        <!--End Text around Image-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Centered Image and Table-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Centered Image and Table</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <p class="text text-center graph-title">
-              This is the title for the bottom image
-            </p>
-            <img class="image center max-width-400 add-top-margin-small" src="img/dummay-img.png">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <p class="text text-center graph-title">
-              This is the title for the bottom table
-            </p>
-            <div class="custom-table-container center add-top-margin-small">
-              <table class="custom-table">
-                <thead>
-                  <tr class="bg-color-gray">
-                    <th>Number of</th>
-                    <th class="text-center">Unique Users</th>
-                    <th class="text-center">Smell Reports</th>
-                    <th class="text-center">Interaction Events</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Enthusiasts</td>
-                    <td class="text-center">9.4%</td>
-                    <td class="text-center">50.6%</td>
-                    <td class="text-center">44.8%</td>
-                  </tr>
-                  <tr class="bg-color-light-gray">
-                    <td>Explorers</td>
-                    <td class="text-center">36.1%</td>
-                    <td class="text-center">37.3%</td>
-                    <td class="text-center">27.3%</td>
-                  </tr>
-                  <tr>
-                    <td>Contributors</td>
-                    <td class="text-center">13.0%</td>
-                    <td class="text-center">12.1%</td>
-                    <td class="text-center">n/a</td>
-                  </tr>
-                  <tr class="bg-color-light-gray">
-                    <td>Observers</td>
-                    <td class="text-center">41.6%</td>
-                    <td class="text-center">n/a</td>
-                    <td class="text-center">27.9%</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td>Size (N)</td>
-                    <td class="text-center">2,237</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">79,447</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-            <p class="text text-center graph-title">
-              This is the title for the bottom very long scrollable table
-            </p>
-            <div class="custom-table-container center add-top-margin-small">
-              <table class="custom-table">
-                <thead>
-                  <tr class="bg-color-gray">
-                    <th class="text-center">Smell Rating</th>
-                    <th class="text-center">2019</th>
-                    <th class="text-center">2018</th>
-                    <th class="text-center">2017</th>
-                    <th class="text-center">2016</th>
-                    <th class="text-center">2015</th>
-                    <th class="text-center">2014</th>
-                    <th class="text-center">2013</th>
-                    <th class="text-center">2012</th>
-                    <th class="text-center">2011</th>
-                    <th class="text-center">2010</th>
-                    <th class="text-center">2009</th>
-                    <th class="text-center">2008</th>
-                    <th class="text-center">2007</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="text-center">1</td>
-                    <td class="text-center">1,711 (9.5%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                    <td class="text-center">1,199 (13.0%)</td>
-                    <td class="text-center">1,658 (20.4%)</td>
-                  </tr>
-                  <tr class="bg-color-light-gray">
-                    <td class="text-center">2</td>
-                    <td class="text-center">798 (4.4%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                    <td class="text-center">497 (5.4%)</td>
-                    <td class="text-center">665 (8.2%)</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center">3</td>
-                    <td class="text-center">4,305 (23.9%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                    <td class="text-center">2,649 (28.8%)</td>
-                    <td class="text-center">2,246 (27.7%)</td>
-                  </tr>
-                  <tr class="bg-color-light-gray">
-                    <td class="text-center">4</td>
-                    <td class="text-center">5,804 (32.3%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                    <td class="text-center">2,932 (31.9%)</td>
-                    <td class="text-center">2,171 (26.8%)</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center">5</td>
-                    <td class="text-center">5,356 (29.8%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                    <td class="text-center">1,918 (20.9%)</td>
-                    <td class="text-center">1,372 (16.9%)</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td class="text-center">Sum</td>
-                    <td class="text-center">17,974</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                    <td class="text-center">9,195</td>
-                    <td class="text-center">8,112</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Centered Image and Table-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Adaptive Image-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Adaptive Image</h2>
-            <hr>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-            <a class="image adaptive-image" style="background-image: url('img/dummay-img-long.png'); min-height: 150px;" href="img/dummay-img-long.png" target="_blank"></a>
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Adaptive Image-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Images and Videos-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Images and Videos</h2>
-            <hr>
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-              magnam aliquam quaerat voluptatem. Sed ut perspiciatis unde.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <video preload controls autoplay loop muted playsinline class="image">
-              <source src="vid/mov_bbb.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-              magnam.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-              coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
-              It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
-              simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch-2 flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-            </p>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image" src="img/dummay-img.png">
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch-2 flex-column">
-            <p class="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
-            </p>
-          </div>
-          <div class="flex-item flex-item-stretch flex-column">
-            <video preload controls autoplay loop muted playsinline class="image">
-              <source src="vid/mov_bbb.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text">
-              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-              custosi traductores. At solmen va esser.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Images and Videos-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Iframe-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Iframe</h2>
-            <hr>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-            <iframe class="iframe-in-body" src="http://yenchiah.me/geo-heatmap/smell.html"></iframe>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <!--END Text with Iframe-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Text with Gallery-->
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <h2 class="add-top-margin">Text with Gallery (Responsive Size)</h2>
-            <hr>
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <div class="gallery">
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-          <a href="javascript:void(0)" class="flex-column"><img src="img/dummay-img.png">
-            <div>Image Caption</div>
-          </a>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
-            </p>
-          </div>
-        </div>
-        <!--End Text with Gallery-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start List of Projects-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2 class="add-top-margin">List of Projects</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <!--End List of Projects-->
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Credits-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text text-small text-italic">
-              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
-            </p>
-          </div>
-        </div>
-        <!--End Credits-->
-        <!-------------------------------------------------------------------------------------------->
-      </div>
+<!--
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="#" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>
+-->
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                  <button type="button" id="sidebarCollapse"
+			  class="btn text-sidebar bg-turbo-yellow">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block
+				   d-lg-none ml-auto"
+			    type="button"
+			    data-toggle="collapse"
+			    data-target="#navbarSupportedContent"
+			    aria-controls="navbarSupportedContent"
+			    aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://docs.google.com/document/d/1QZ-X9cx7sF7JqppbsHKM1s3GRKxjcQAzCjV8BcBeB5g/edit?usp=sharing">TODO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+	    <h1>Rock Dust Products  <img class="image flex-column" src="img/IMG_0473.JPG" width="100px">
+	  </h1>
+	    <div class="line"></div>
+	  
+            <h3>Greenstone</h3>
+            <p>A unique, natural volcanic, metamorphic blend created
+    to enrich soil and increase fertility and growth. It is carefully
+    selected, tested, extracted and crushed from rare deposits in the
+    Canadian Shield. It has over 70 essential minerals and trace
+    elements required for healthy, strong crops. Greenstone is highly
+    paramagnetic and has qualities that attract and repel soil
+    particles which increase flocculation and respiration. This
+    improves tilth and porosity of your soil and stimulates
+    growth. Using Greenstone is a tried and tested way of creating
+    ideal diverse soil conditions for quality yields. Apply anytime,
+    200-1000 lb per acre, or 40 lb per 1,000 sq. ft. For orchards
+    10-20 lb per tree, as an additive to potting soil 1-10 ratio, $19
+    (fine grind) or $17.50 (chips) for 40 lb pail
+	    </p>
+            <div class="line"></div>
+
+	    <h3>Tor Starter</h3>
+	    <p>An introductory Starter Mix for Vegetables, Fruit,
+	      Greenhouses, Orchards, Lawns and Golf Courses. A unique
+	      blend of volcanic and sedimentary paramagnetic complexes
+	      that offer true value with over 70 trace elements and
+	      minerals. Also has natural occurring amino acids and B
+	      vitamins. Apply Spring or Fall, 200-1000 lb per acre, or
+	      40 lb per 1,000 sq. ft. For orchards 10-20 lb per tree,
+	      as an additive to potting soil 1-10 ratio, $21 for 40 lb
+	      pail</p>
+	    <div class="line"></div>
+	    
+
+	    
+	    <h3>Gypsum+</h3>
+	    <p>A Calcium Sulphate Blend for Composting, Gardens,
+    Flowers, Ginseng, and Trees of all species. Remedy Salt Damaged
+    Walkways, Boulevards, Lawns and Contaminated Soil. Contains 76%
+    pure calcium carbonate (with 20% available calcium), 15% sulphur,
+    6% silica, trace manganese, zinc and an assortment of trace
+    elements. It works by enhancing the natural breakdown process
+    which stabilizes the usable nutrients and elements. Adding Gypsum+
+    to manure reduces odors by locking up ammonia, turning carbonate
+    of ammonia into odorless insoluble ammonium sulphate, which
+    prevents leaching. Composting manure with Gypsum+ increases
+    organic matter of static piles and fertility of lagoons. It also
+    detoxifies chemical residuals in contaminated soil. Gypsum+ is an
+    essential component for methionine production and other sulphur
+    based amino acids such as taurine and cysteine.  These aminos
+    chelate lead and aluminum. Gypsum+ regulates potassium, magnesium
+    and iron ratios. Control phosphorous and transform it into
+    insoluble calcium hydroxysulphate with Gypsum+. Manage your soil
+    pH with Gypsum+ and promote your nutrient availability the natural
+    way.  Apply to land early spring and fall 200-2000 lb per acre, or
+    200 lb (1:10 ratio) per ton of stockpile manure or to control
+    odors in barns sprinkle at a 1:4 ratio, avoid gumming in compost
+    piles 1:6 ratio. For lawns or gardens and golf courses, 35 lb per
+    1,000 sq. ft. in spring and fall $12.50 for 35 lb pail.
+	    </p>
+<div class="line"></div>
+	    
+
+
+    <h3>Crossroads </h3><p>A Superb Calcium Soil Conditioner for
+    Bulbs, start up Lawns, Gardens, Trees, Resodding and Golf
+    Courses. Contains 4 calciums and paramagnetic limestone with a
+    diverse mineral spectrum. Apply spring or fall 200-500 lb per
+    acre, for lawns and gardens 40 lb per 1,200 sq. ft, 10 lb per
+    tree, or as a feed supplement, at a ratio of 1:20, $22.50 for 40
+    lb pail.</p>
+<div class="line"></div>
+	    
+
+    
+      <h3>Legacy</h3> <p>a Deluxe Full Spectrum Mineral Blend. For lawns,
+    Gardens, Flowers, Ginseng or Trees of all species. Contains 4
+    calciums, sea vegetables, peat moss, silica and an impressive
+    line-up of macro and micronutrients. Apply 200-1000 lb per acre in
+    spring or autumn, after the leaves fall. Suggest 5-10 lb per tree,
+    1/2-1 lb per berry bush, for lawns or gardens and golf courses, 40
+    lb per 1500 sq. ft garden, $29 for 40 lb pail.
+    </p>
+<div class="line"></div>
+
+<h3>Tara’s Tarn</h3> <p>Works as Seed Inoculate and also Stimulates
+    Exotic Mushrooms.  Tara’s Tarn ingredients are extracted from one
+    of the Earth’s primordial sea bottoms. When planting legumes or
+    forages, dust seeds prior to drilling or broadcasting.  For
+    mushrooms, dust bed or logs. (mix 1 oz per lb of seed). $6 for 1oz
+    or $50 for 10 lb pail.
+    </p>
+<div class="line"></div>
+
+<h3>Rama Rock</h3> <p>a Deluxe Greenhouse Houseplant Blend, ideal for
+    flowers, herbs, sprouts, bonsai, tropicals and to enhance compost
+    piles. $14 for 500 grams Nutrient Tea</u> a Natural Solution that
+    Enhances Growth for Lawns, Golf Courses, Trees, Shrubs, Hedges,
+    Flowers, Fruit and all Garden Vegetables. Contains fish emulsion,
+    lignin, orange oil, humates, sea nectar, vitamin C, copper
+    sulphate and sugars with a pH level of 6. To treat lawns 3 oz per
+    gallon of water covers 1000 sq. ft. Apply extra after mowing or to
+    green up trouble spots from damage or drought. To avoid excessive
+    winter burn, spray 2 weeks prior to freeze-up then add organic
+    matter. Other uses include foliar misting, top dressing soil,
+    presoak seeds or dip cuttings. Apply 1 gal per acre seasonally in
+    quart applications every 3 weeks. $12.50 per litre, $36 per gal
+    </p>
+<div class="line"></div>
+    
+    <h3>Nature’s Nectar</h3> <p>a Soil Binder, Dust Suppressant and Erosion Deterrent, for
+    Gardens, Fields, Golf Courses and Lawns. Natural Nectar is ideal for knitting sandy soil,
+    composting, separating clay and dust control. Composed of humates, lignin, carbohydrates,
+    vitamin C and orange oil, H302. Compliments the Krebs (series of biochemical reactions)
+    and Ergs (energy released grams per second) cycles and provides natural water soluble
+    cellulose. Spray 1-3 gal per acre. $7.50 litre, $25 per gal </p>
+<div class="line"></div>
+
+<h3>Orange Blossom</h3> <p>a Natural Cleanser that prohibits pathogens. Ideal for Gardens,
+    Fields, Lawns and Golf Courses, Vegetables, Fruits, Flowers, Forages and Berries. Orange
+    Blossom is a citrus surfactant that has insecticidal properties which ward off certain
+    caterpillars and soft shelled insects. It is a natural cleaner &amp; carbon source
+    disinfectant for soil. Spray on soil in spring and fall. 1 gal per acre
+    @ $15 per gal</p>
+<div class="line"></div>
+
+<h3>Black Gold</h3> <p>a Blend of Sphagnum Peat and Premium Compost. Absorbs ammonia and
+    deodorizes the environment naturally. Ideal for Gardens, Resodding Lawns &amp; Golf
+    Courses, Trees, Shrubs, Hedges, Vegetables &amp; Fruit. Improves compacted or sandy soil
+    &amp; has a low salt index. It is high in nutrients and humic acids and contains no
+    pathogens. Compliments the ion exchange capacity. $5 for 35 lb</p>
+<div class="line"></div>
+
+<h3>Krystar</h3> <p>a Natural Cold Processed Fructose that’s enzyme active. Ideal for
+    Gardens, Fields, Lawns and Golf Courses. It promotes bacteria proliferation in the organic
+    breakdown of residuals. Assists the carbon cycle. As a natural sugar it can also be used
+    for diabetic jams, jellies and baking. Spray 6-8 oz per acre on fields or lawns $69 for 50
+    lb, $5 for 2 lb</p>
+<div class="line"></div>
+  	    
+
+
+	</div>
     </div>
-  </div>
+ 
+    <!-- jQuery CDN - Slim version (=without AJAX) 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"</script> -->
+    <script src="js/jquery-3.3.1.slim.min.js"</script>
+    <!-- Popper.JS 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"</script> -->
+    <script src="js/popper.min.js"</script>
+    <!-- Bootstrap JS 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"</script>
+-->   
+    <script src="js/bootstrap.min.js"</script>
+
+	    <script type="text/javascript">
+              $(document).ready(function () {
+              $('#sidebarCollapse').on('click', function () {
+              $('#sidebar').toggleClass('active');
+              });
+              });
+	    </script>
+	    
+
 </body>
 
 </html>
