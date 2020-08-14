@@ -71,7 +71,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
     min-width: 250px;
     max-width: 250px;
     /*background: #80DAEB;*/ /*#71BC78; /* fern */
-    background: #DBEEAD; /* BG3 */
+    background:  #ECFFBE; /*#DBEEAD;*/ /* BG3 */
     color: $text-sidebar;
     transition: all 0.3s;
 }
@@ -83,7 +83,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #ECFFBE; /* BG5 */
+    background: #ECFFBE; /* lightest green */
 }
 
 #sidebar ul.components {
