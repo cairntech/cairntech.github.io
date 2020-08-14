@@ -77,7 +77,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 #sidebar.active {
-    background: #30BA8F; /* BG4 */
+    background: #30BA8F; /* BG4 turquoise */
     margin-left: -250px;
 }
 
@@ -127,7 +127,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc; /* BG8 */
+    background: #ECFFBE; /* BG8 sublists */
 }
 
 ul.CTAs {
