@@ -3,7 +3,7 @@
      
    body {
     font-family: 'Ruda', sans-serif;
-    background: #f00 /*#fafafa;*/ /* BG1 */
+    background: #f00; /*#fafafa;*/ /* BG1 */
 }
 
 p {
@@ -26,7 +26,7 @@ a:focus {
 .navbar {
     padding: 15px 10px;
     /*background: #fff;*/
-    background: #71BC78; /* BG2 */
+    background: #00f; /*#71BC78;*/ /* BG2 */
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
