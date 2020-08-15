@@ -68,12 +68,15 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    /*background: #80DAEB;*/ /*#71BC78; /* fern */
-    background:  #ECFFBE; /*#DBEEAD;*/ /* BG3 */
-    color: $text-sidebar;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #ECFFBE;
     transition: all 0.3s;
+    
 }
 
 #sidebar.active {
@@ -158,9 +161,12 @@ a.article:hover {
 ----------------------------------------------------- */
 
 #content {
-    width: 100%;
-    padding: 20px;
+    width: calc(100% - 250px);
     min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
     transition: all 0.3s;
     /* background: #ECFFBE; */
     background: #FFF; /* BGL */
