@@ -97,7 +97,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 #sidebar.active {
-    transform: rotateY(100deg);
+    /*transform: rotateY(100deg);*/
     margin-left: -250px;
 }
 
