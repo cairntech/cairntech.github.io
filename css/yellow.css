@@ -37,7 +37,70 @@ a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/ 
 }
 
+#sidebar .custom-menu {
+    z-index: 1000;
+    
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: -0;
+    margin-right: 5px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+
+
+#sidebar .custom-menu .btn.btn-secondary:after {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #000;
+    border-radius: 20%;
+
+}
+
+.mybutton {
+    /*background-color: #4CAF50; *//* Green */
+    z-index: 1000;
+    position: absolute;
+    left: 225px;
+    margin: 10px 10px;
+    background-color: #ECFFBE;
+    border: none;
+    color: green;
+    /*border: 2px solid #4CAF50; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5%;
+   -webkit-transform: rotate(45deg);
+ 
+}
+.mybutton.active {
+    /*background-color: #4CAF50; *//* Green */
+    z-index: 1000;
+    left: -6px;
+    position: absolute;
+    margin: 10px 10px;
+    background-color: #ECFFBE;
+    border: none;
+    color: green;
+    /*border: 2px solid #4CAF50; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5%;
+}
 .navbar-btn {
+    position: fixed;
+    left: 250;
     box-shadow: none;
     outline: none !important;
     border: none;
@@ -110,7 +173,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 
 #sidebar.active {
     /*transform: rotateY(100deg);*/
-    margin-left: -250px;
+    margin-left: -230px;
 }
 
 #sidebar .sidebar-header {
@@ -224,13 +287,14 @@ a.article:hover {
 
 
 #content {
-    width: calc(100% - 250px);
+    z-index: 1;
+    width: calc(100% - 230px);
     min-height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
-    padding: 20px; 
-    transition: all 0.3s;
+    padding: 40px; 
+    /*transition: all 0.3s;*/
     /* background: #ECFFBE; */
     background: #FFF; /* BGL */
 }
@@ -243,10 +307,10 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
-    #content.active {width: calc(100% - 250px) }
+    #content.active {width: calc(100% - 230px) }
     #content { width: 100% }
     #sidebar {
-        margin-left: -250px;
+        margin-left: -230px;
     }
     #sidebar.active {
         margin-left: 0;
