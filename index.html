@@ -338,10 +338,10 @@
               });
 
 	      $(window).on('resize', function() {
-	      if($(window).height() < 768) {
-				      $('#sidebar').toggleClass('active');
-				      $('#content').toggleClass('active');
-				      $('.mybutton').toggleClass('active');
+	      if($(window).width() < 768) {
+				      $('#sidebar').addClass('active');
+				      $('#content').addClass('active');
+				      $('.mybutton').addClass('active');
 				      
 				      }
 				      })
