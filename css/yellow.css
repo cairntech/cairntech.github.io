@@ -68,12 +68,12 @@ a:focus {
     /*background-color: #4CAF50; *//* Green */
     z-index: 1000;
     position: absolute;
-    left: 225px;
+    left: 223px;
     margin: 10px 10px;
     background-color: #ECFFBE;
     border: none;
     color: green;
-    /*border: 2px solid #4CAF50; */
+    border: 2px solid #4CAF50; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -85,13 +85,13 @@ a:focus {
 .mybutton.active {
     /*background-color: #4CAF50; *//* Green */
     z-index: 1000;
-    left: -6px;
+    left: -2px;
     position: absolute;
-    margin: 10px 10px;
+    margin: 10px 12px;
     background-color: #ECFFBE;
     border: none;
     color: green;
-    /*border: 2px solid #4CAF50; */
+    border: 2px solid #4CAF50; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -305,7 +305,7 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
+/*
 @media (max-width: 768px) {
     #content.active {width: calc(100% - 230px) }
     #content { width: 100% }
@@ -320,3 +320,4 @@ a.article:hover {
     }
 }
 
+*/
