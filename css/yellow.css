@@ -67,7 +67,7 @@ a:focus {
 .mybutton {
     /*background-color: #4CAF50; *//* Green */
     z-index: 1000;
-    position: absolute;
+    position: fixed;
     left: 223px;
     margin: 10px 10px;
     background-color: #ECFFBE;
@@ -86,7 +86,7 @@ a:focus {
     /*background-color: #4CAF50; *//* Green */
     z-index: 1000;
     left: -2px;
-    position: absolute;
+    position: fixed;
     margin: 10px 12px;
     background-color: #ECFFBE;
     border: none;
