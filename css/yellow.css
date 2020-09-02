@@ -330,7 +330,9 @@ a.article:hover {
 }
 
 #content.active {
-    width : 100%
+    width : 100%;
+    left: 20px
+		
 }
 /* ---------------------------------------------------
     MEDIAQUERIES
