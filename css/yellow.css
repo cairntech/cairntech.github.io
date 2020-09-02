@@ -11,10 +11,16 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
+    padding: 40px;
     /*color: #999;*/
     color: #1A4876/*##414A4C*/; /* dark blue */
 }
 
+h3 {
+   padding: 20px;
+   color: #1A4876/*##414A4C*/; /* dark blue */
+}
+}
 a,
 a:hover,
 a:focus {
@@ -23,6 +29,18 @@ a:focus {
     transition: all 0.3s;
 }
 
+.bannertext {
+    color: #ECECEC;
+    position: absolute;
+    text-shadow: 2px 2px #009999;
+    /*text-align: center;*/
+    font-size: 150%;
+    font-weight: 900;
+  
+    top: 40px;
+    padding: 15px;
+    z-index: 2000;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -182,6 +200,16 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
     background: #ECFFBE; /* lightest green */
 }
 
+.sidebar-headertext {
+    color: white;
+    position: absolute;
+    text-shadow: 2px 2px #009999;
+    /*text-align: center;*/
+    top: 90px;
+    padding: 15px;
+    z-index: 2000;
+}
+
 #sidebar ul.components {
     padding: 20px 0;
     border-bottom: 1px solid #47748b;
@@ -293,8 +321,9 @@ a.article:hover {
     min-height: 100vh;
     position: absolute;
     top: 0;
-    right: 0;
-    padding: 40px; 
+    /*   right: 0; */
+    left: 250px;
+    padding:15px; 
     /*transition: all 0.3s;*/
     /* background: #ECFFBE; */
     background: #FFF; /* BGL */
