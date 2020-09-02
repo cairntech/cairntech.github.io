@@ -2,6 +2,7 @@
    @import "https://fonts.googleapis.com/css?family=Ruda:300,400,500,600,700";
    /* Exo */
    @import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap";
+   @import "https://fonts.googleapis.com/css2?family=Piedra&display=swap";
 
    body {
     font-family: 'Ruda', sans-serif;
@@ -203,7 +204,8 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 .sidebar-headertext {
-    font-family: 'Montserrat Alternates', sans-serif;
+    /*font-family: 'Montserrat Alternates', sans-serif;*/
+    font-family: 'Piedra', cursive;
     color: white;
     position: absolute;
     text-shadow: 2px 2px #009999;
