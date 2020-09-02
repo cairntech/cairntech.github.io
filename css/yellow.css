@@ -39,8 +39,9 @@ a:focus {
     /*text-align: center;*/
     font-size: 150%;
     font-weight: 900;
-    font-family: 'Montserrat Alternates', sans-serif;
-  
+    /*font-family: 'Montserrat Alternates', sans-serif;*/
+    font-family: 'Piedra', cursive;
+ 
     top: 40px;
     padding: 15px;
     z-index: 2000;
