@@ -11,7 +11,17 @@
  
     {% include sidebar.html %}
 
-    {{ content }}
+    
+        <div id="content">
+	  <div class = "banner">
+	    <img class="image" src="img/banner2.png" width="100%">
+	    <div class = "bannertext"> <h1>{{ page.title }}</h1>
+	    </div>
+	  </div>
+	  <div class="line"></div>
+	  
+	  {{ content }}
+	  </div>
 </div>
     </body>
 
