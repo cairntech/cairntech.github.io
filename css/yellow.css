@@ -1,6 +1,8 @@
    @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
    @import "https://fonts.googleapis.com/css?family=Ruda:300,400,500,600,700";
-     
+   /* Exo */
+   @import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap";
+
    body {
     font-family: 'Ruda', sans-serif;
     background: #fafafa; /* dark white */
@@ -201,6 +203,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 .sidebar-headertext {
+    font-family: 'Montserrat Alternates', sans-serif;
     color: white;
     position: absolute;
     text-shadow: 2px 2px #009999;
