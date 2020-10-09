@@ -1393,7 +1393,8 @@ $.magnificPopup.registerModule('zoom', {
 						transition = 'all '+(zoomSt.duration/1000)+'s ' + zoomSt.easing,
 						cssObj = {
 							position: 'fixed',
-							zIndex: 9999,
+						    zIndex: 9999,
+						    z-index: 9999,
 							left: 0,
 							top: 0,
 							'-webkit-backface-visibility': 'hidden'
