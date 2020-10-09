@@ -43,7 +43,7 @@ a:focus {
     font-family: 'Piedra', cursive;
     top: 40px;
     padding: 15px;
-    z-index: 2000;
+    z-index: 4;
 }
 .navbar {
     position: fixed;
@@ -60,7 +60,7 @@ a:focus {
 }
 
 #sidebar .custom-menu {
-    z-index: 1000;
+    z-index: 3;
     
     display: inline-block;
     position: absolute;
@@ -73,7 +73,7 @@ a:focus {
 
 
 #sidebar .custom-menu .btn.btn-secondary:after {
-    z-index: 100;
+    z-index: 1;
     position: absolute;
     top: 0;
     right: 0;
@@ -88,7 +88,7 @@ a:focus {
 
 .mybutton {
     /*background-color: #4CAF50; *//* Green */
-    z-index: 1000;
+    z-index: 3;
     position: fixed;
     left: 223px;
     margin: 10px 10px;
@@ -106,7 +106,7 @@ a:focus {
 }
 .mybutton.active {
     /*background-color: #4CAF50; *//* Green */
-    z-index: 1000;
+    z-index: 3;
     left: -2px;
     position: fixed;
     margin: 10px 12px;
@@ -170,7 +170,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
     top: 0;
     left: 0;
     height: 100vh;
-    z-index: 999;
+    z-index: 2;
     background: #ECFFBE;
     transition: all 0.3s;
     overflow-y: auto;
@@ -213,7 +213,7 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
     /*text-align: center;*/
     top: 90px;
     padding: 15px;
-    z-index: 2000;
+    z-index: 4;
 }
 
 #sidebar ul.components {
