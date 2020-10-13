@@ -222,8 +222,16 @@ $text-sidebar-hover : #6b6b6b /*#fff*/;
 }
 
 
-# text p {
-  
+#text p { 
+    font-family: 'Ruda', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding: 10px;
+    /*color: #999;*/
+    color: #1A4876/*##414A4C*/; /* dark blue */
+}
+#text a { 
     font-family: 'Ruda', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
